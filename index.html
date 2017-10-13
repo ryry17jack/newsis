@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ระบบสารสนเทศนักศึกษา ปริญญาตรี - มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย</title>
+
+    <!--Bootstrap Incl.-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+    <!--My Css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/BST_style.css">
+
+    
+</head>
+<body background="https://songkhla.sis.rmutsv.ac.th/advisor/images/bg.jpg">
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp; ระบบสารสนเทศนักศึกษา</a>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>        
+                
+    <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+      <li class="nav-item">
+        <a class="nav-link btn btn-outline-warning" href="#">สำนักส่งเสริมวิชาการและงานทะเบียน<span class="sr-only">(current)</span></a>
+      </li>&nbsp;
+      <li class="nav-item">
+        <a class="nav-link btn btn-outline-warning" href="courseSearch.php">รายชื่อ นศ. ลงทะเบียน</a>
+      </li>&nbsp;
+      <li class="nav-item">
+        <a class="nav-link btn btn-outline-info" href="#">ช่วยเหลือ</a>
+      </li>&nbsp;
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+      </li>
+    </ul>
+  </nav>
+            
+          <div class="container login-box">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="row">
+                  <div class="col-8 col-sm-4">
+                      <img src="img/rmutsv.gif" width="160" class="d-inline-block align-top logo" alt="">
+                  </div>
+                
+                
+                  <div class="col-4 col-sm-8">
+              <div class="container">
+                  <form name="frmLogin" action="action_login.php" class="form-horizontal login-form">
+                      <h4><b>ลงชื่อเข้าใช้งานระบบ</b></h4><br>
+                        <h5>ระดับปริญญาตรี สงขลา</h5><hr width="400px">
+                        <div class="form-group row">                        
+                        <label for="InputUserID" class="col-sm-4 col-form-label"><b>ชื่อผู้ใช้งาน</b></label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="InputUserID" placeholder="เช่น s1554041700XX">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="InputPassword" class="col-sm-4 col-form-label"><b>รหัสผ่าน</b></label>
+                        <div class="col-sm-8">
+                          <input type="password" class="form-control" id="InputPassword" placeholder="รหัสผ่าน e-passport">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <div class="col">
+                          <button type="submit" class="btn btn-outline-success btn-block">เข้าสู่ระบบ</button>
+                        </div>
+                      </div>
+                    </form>
+              </div>
+            
+          </div>
+            </div>
+            </div>
+          </div>
+          </div>
+              
+              <footer class="footer">
+                <div class="container">
+                  <span class="text-muted">Copyright © 2017 Rajamangala University of technology Srivijaya . All Rights Reserved. - 
+                    สำนักส่งเสริมวิชาการและงานทะเบียน มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย<br>
+                    เลขที่ 1 ถ.ราชดำเนินนอก ต.บ่อยาง อ.เมือง จ.สงขลา 90000 โทรศัพท์ 0-7431-7100 ต่อ 1403 โทรสาร 0-7431-7140
+                  </span>
+                </div>
+              </footer>
+
+              <!-- Bootstrap core JavaScript
+              ================================================== -->
+              <!-- Placed at the end of the document so the pages load faster -->
+              <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+              
+            
+</body>
+</html>
